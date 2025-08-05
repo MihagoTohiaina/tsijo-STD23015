@@ -22,6 +22,7 @@ public class Donation {
   private double amount;
   private Instant donationDate;
   private String paymentMethod; // e.g., "MVOLA", "ORANGE_MONEY"
+  private String pspPaymentId;
 
   @Enumerated(EnumType.STRING)
   private PaymentStatus status;

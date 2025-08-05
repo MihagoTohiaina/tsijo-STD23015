@@ -28,6 +28,7 @@ public class DonationService {
             .amount(amount)
             .donationDate(Instant.now())
             .paymentMethod(paymentMethod)
+            .pspPaymentId(pspPaymentId)
             .status(PaymentStatus.VERIFYING)
             .build();
     return donationRepository.save(donation);
