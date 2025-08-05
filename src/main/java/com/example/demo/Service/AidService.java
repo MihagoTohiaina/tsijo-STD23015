@@ -4,7 +4,7 @@ package com.example.demo.Service;
 import com.example.demo.Repository.AidRepository;
 import com.example.demo.model.Aid;
 import lombok.AllArgsConstructor;
-import org.springframework.stereotype.Service;;
+import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
